@@ -7,4 +7,4 @@ RUN cd /tmp &&  tar xvfz apache-tomcat-10.1.15.tar.gz
 RUN cp -Rv /tmp/apache-tomcat-10.1.15/* /usr/local/tomcat/
 ADD **/*.war /usr/local/tomcat/webapps
 EXPOSE 8080
-CMD /usr/local/tomcat/bin/startup.sh run
+CMD /usr/local/tomcat/bin/catalina.sh run
