@@ -1,2 +1,2 @@
-[local]
-localhost ansible_python_interpreter="/usr/bin/python3.8"
+[testnodes]
+samplenode1 ansible_ssh_host=172.31.1.48 ansible_ssh_user=ansibleadmin
